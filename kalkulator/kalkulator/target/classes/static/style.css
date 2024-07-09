@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #4a90e2; /* zmieniono kolor tła */
+    color: #333;
+}
+
+h1, h2 {
+    color: #fff; /* zmieniono kolor nagłówków */
+    text-align: center;
+    font-size: 2em; /* powiększono czcionkę nagłówków */
+}
+
+form {
+    margin: 20px 0;
+    text-align: center; /* wyśrodkowano formularz */
+}
+
+input[type="number"] {
+    margin: 5px 0;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px; /* dodano padding */
+    font-size: 1.2em; /* powiększono czcionkę */
+}
+
+input[type="submit"] {
+    margin: 5px 0;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2em; /* powiększono czcionkę */
+}
+
+input[type="submit"]:hover {
+    background-color: #555;
+}
+
+div {
+    border: 1px solid #fff; /* zmieniono kolor obramowania */
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px;
+    border-radius: 20px;
+    background-color: #f0e6d6; /* zmieniono kolor tła kontenera */
+    max-width: 600px; /* dodano maksymalną szerokość */
+    text-align: center; /* wyśrodkowano zawartość */
+}
+
+p {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 1.2em; /* powiększono czcionkę */
+}
+
+a {
+    display: inline-block;
+    text-align: center;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    margin: 20px auto; /* dodano marginesy do wyśrodkowania */
+    font-size: 1.2em; /* powiększono czcionkę */
+    max-width: 200px; /* dodano maksymalną szerokość */
+}
+
+a:hover {
+    background-color: #555;
+    color: white;
+}
